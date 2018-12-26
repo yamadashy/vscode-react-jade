@@ -1,7 +1,7 @@
 import React from 'react'
 import SubComponent from './SubComponent'
 
-export default (props) => pug`
+export default (props) => rj`
   //- some comment 
   .Component
     if props.showSubComponent
@@ -13,7 +13,7 @@ export default (props) => pug`
 `
 
 export default (props) => {
-  return pug`
+  return rj`
     //- some comment 
     .Component
       if props.showSubComponent
@@ -24,3 +24,8 @@ export default (props) => {
           li(key=i)= num
   `
 }
+
+export default (props) => jade`
+  //- some comment 
+  .Component
+`

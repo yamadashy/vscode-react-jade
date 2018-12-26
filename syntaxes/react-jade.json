@@ -3,8 +3,8 @@
 	"injectionSelector": "L:source -comment -string",
 	"patterns": [
 		{
-			"contentName": "react.pug",
-			"begin": "pug\\s*(`)",
+			"contentName": "react.jade",
+			"begin": "(rj|jade)\\s*(`)",
 			"beginCaptures": {
 				"1": {
 					"name": "entity.name.function.tagged-template.ts",
@@ -35,10 +35,10 @@
 			},
 			"patterns": [
 				{
-					"include": "text.pug"
+					"include": "text.jade"
 				}
 			]
 		}
 	],
-	"scopeName": "react.pug"
+	"scopeName": "react.jade"
 }

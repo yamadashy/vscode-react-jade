@@ -1,14 +1,14 @@
 {
-    "name": "vscode-react-pug",
-    "displayName": "vscode-react-pug",
-    "description": "Syntax highlighting for pug (babel-plugin-transform-react-pug)",
+    "name": "vscode-react-jade",
+    "displayName": "vscode-react-jade",
+    "description": "Syntax highlighting for jade (react-jade-transformer)",
     "version": "0.0.2",
-    "publisher": "kaminaly",
+    "publisher": "yamadashy",
     "icon": "logo.png",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/kaminaly/vscode-react-pug.git"
+        "url": "https://github.com/yamadashy/vscode-react-jade.git"
     },
     "engines": {
         "vscode": "*"
@@ -19,8 +19,8 @@
     "contributes": {
         "grammars": [
             {
-                "scopeName": "react.pug",
-                "path": "./syntaxes/react-pug.json",
+                "scopeName": "react.jade",
+                "path": "./syntaxes/react-jade.json",
                 "injectTo": [
                     "source.js",
                     "source.ts",
@@ -29,7 +29,7 @@
                     "source.tsx"
                 ],
                 "embeddedLanguages": {
-                    "react.pug": "jade"
+                    "react.jade": "jade"
                 }
             }
         ]
