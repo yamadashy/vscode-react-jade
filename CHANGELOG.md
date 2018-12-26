@@ -1,5 +1,8 @@
 # Release Notes
 
+## 0.0.3
+bugfix: fix patterns
+
 ## 0.0.2
 
 bugfix: end of regular expression is changed from `` ` `` to ``\\s*(`)``.

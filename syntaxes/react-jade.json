@@ -35,7 +35,7 @@
 			},
 			"patterns": [
 				{
-					"include": "text.jade"
+					"include": "text.pug"
 				}
 			]
 		}
