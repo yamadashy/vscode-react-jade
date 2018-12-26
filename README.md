@@ -6,7 +6,7 @@ Syntax highlighting for jade with react [(react-jade-transformer)](https://githu
 
 ![Syntax highlighting in action](demo.png)
 
-jade would be written written inside `rj` or `jade` tagged with backticks.
+jade would be written inside `rj` or `jade` tagged with backticks.
 for example.
 
 ```
