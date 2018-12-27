@@ -2,7 +2,7 @@
     "name": "vscode-react-jade",
     "displayName": "React Jade",
     "description": "Syntax highlighting for jade (react-jade-transformer)",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "yamadashy",
     "icon": "images/logo.png",
     "license": "MIT",

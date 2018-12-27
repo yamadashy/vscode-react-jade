@@ -1,5 +1,9 @@
 # Release Notes
 
+## 0.0.5
+- Fix: extension name
+- Fix: LICENSE
+
 ## 0.0.4
 - Add note for react-pug
 
