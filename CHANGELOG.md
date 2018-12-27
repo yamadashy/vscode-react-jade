@@ -1,13 +1,16 @@
 # Release Notes
 
+## 0.0.4
+- Add note for react-pug
+
 ## 0.0.3
-bugfix: fix patterns
+- Fix: update patterns
 
 ## 0.0.2
 
-bugfix: end of regular expression is changed from `` ` `` to ``\\s*(`)``.
-bugfix: comment shortcut is changed from `//` to `//-`. 
+- Fix: end of regular expression is changed from `` ` `` to ``\\s*(`)``.
+- Fix: comment shortcut is changed from `//` to `//-`. 
 
 ## 0.0.1
 
-Initial release of vscode-react-pug
+- Initial release of vscode-react-pug
