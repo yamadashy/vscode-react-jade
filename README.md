@@ -8,7 +8,7 @@ If you write `react-pug`, use `vscode-react-pug` extension.
 # vscode-react-jade
 Syntax highlighting for jade with react [(react-jade-transformer)](https://github.com/weareoffsider/react-jade-transformer) in JavaScript and TypeScript.
 
-![Syntax highlighting in action](demo.png)
+![Syntax highlighting in action](images/demo.png)
 
 jade would be written inside `rj` or `jade` tagged with backticks.
 for example.
