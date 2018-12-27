@@ -29,3 +29,9 @@ export default (props) => jade`
   //- some comment 
   .Component
 `
+
+// not highlighted
+export default (props) => pug`
+  //- some comment 
+  .Component
+`
